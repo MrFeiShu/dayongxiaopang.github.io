@@ -10,11 +10,16 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- coverpage:true coverpage的p不能大写，否则封面不生效 -->
   <script>
     window.$docsify = {
       name: '',
       repo: '',
-      loadSidebar:true
+      loadSidebar:true,
+      subMaxLevel:2,
+      loadNavbar:true,
+      coverpage:true,
+      onlyCover:true
     }
   </script>
   <!-- Docsify v4 -->
